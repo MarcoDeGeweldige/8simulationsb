@@ -60,7 +60,16 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+*
 
+# But not these files...
+!.gitignore
+!.cs
+!template.latex
+# etc...
+
+# ...even if they are in subdirectories
+!*/
 # Crashlytics generated file
 crashlytics-build.properties
 
